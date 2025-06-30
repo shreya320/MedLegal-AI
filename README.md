@@ -1,4 +1,4 @@
-✅ Phase 1: Setup & Core Chat Functionality
+<!-- ✅ Phase 1: Setup & Core Chat Functionality
 Goal: Get a working chatbot that takes a medico-legal scenario and returns advice using Gemini or OpenAI.
 
 📦 What to Do:
@@ -51,9 +51,9 @@ Test with scenarios like:
 
 "Unconscious female brought to ER by police"
 
-"13-year-old requests abortion without parent consent"
+"13-year-old requests abortion without parent consent" -->
 
-✅ At the end of Phase 1, you have a functioning legal assistant.
+<!-- ✅ At the end of Phase 1, you have a functioning legal assistant.
 
 ✅ Phase 2: Legal Corpus + RAG Setup
 Goal: Make the chatbot actually smart with Indian law using RAG.
@@ -65,9 +65,9 @@ Use links from NMC, AIIMS, WHO
 
 Or search:
 
-filetype:pdf site:nmc.org.in consent, filetype:pdf site:aiims.edu MLC guidelines
+filetype:pdf site:nmc.org.in consent, filetype:pdf site:aiims.edu MLC guidelines -->
 
-Chunk documents
+<!-- Chunk documents
 
 Break each into ~200–400 word sections
 
@@ -101,7 +101,7 @@ Pull top 3–5 chunks
 
 Send with prompt to LLM
 
-✅ Now your chatbot gives informed, legally grounded answers.
+✅ Now your chatbot gives informed, legally grounded answers. -->
 
 ✅ Phase 3: Smart Features
 Goal: Make your tool feel like a real assistant.
@@ -126,7 +126,7 @@ Either rule-based or embedded in doc corpus
 
 ✅ You now have an assistant doctors could genuinely use.
 
-✅ Phase 4: Polish, Deploy, Document
+<!-- ✅ Phase 4: Polish, Deploy, Document
 Goal: Make it beautiful and easy to showcase
 
 Clean up UI
@@ -155,7 +155,7 @@ Prompt flow
 
 Tech stack
 
-What makes it different from ChatGPT or Google
+What makes it different from ChatGPT or Google -->
 
 ✅ Final Resume Bullet:
 Built ClinGuard AI, an AI assistant for Indian doctors to assess medico-legal scenarios using RAG and LLMs. Curated domain-specific corpus of ethics codes, case law, and medical council guidelines to provide context-aware legal duties and documentation suggestions.
@@ -169,11 +169,11 @@ Quiz mode for med students
 
 Language toggle (Hindi/English summaries)
 
-Want me to:
+<!-- Want me to:
 Write your Streamlit starter template?
 
 Create your chunking + FAISS script?
 
 Suggest 10 links for PDF sourcing?
 
-Say the word — you now have a powerful, focused roadmap. Let’s build a best-in-class AI tool together.
+Say the word — you now have a powerful, focused roadmap. Let’s build a best-in-class AI tool together. -->

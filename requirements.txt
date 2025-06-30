@@ -1,2 +1,6 @@
 dotenv
 streamlit
+faiss-cpu
+langchain
+pypdf
+sentence-transformers
