@@ -20,5 +20,24 @@ MedLegal AI is an AI-powered assistant built to help Indian doctors make informe
 - `HuggingFace Embeddings` with `MiniLM` for vector similarity
 - `.env` file for secure API key handling
 
-## 📂 Directory Structure
+📚 Sources
+Indian Medical Council Regulations (MCI/NMC)
+
+Indian Penal Code (IPC) Sections
+
+Legal guidelines from AIIMS, WHO, MOHFW, and medico-legal repositories
+
+Documents retrieved via FAISS-based vector search
+
+🧑‍⚕️ Example Use Cases
+A patient with a head injury refuses treatment
+
+A 13-year-old girl seeks an abortion without telling her parents
+
+A patient dies under suspicious circumstances during treatment
+
+An unconscious victim is brought by police for evaluation
+
+⚠️ Disclaimer
+This tool provides AI-generated guidance based on publicly available medico-legal documents. It is not a substitute for legal counsel, and should be used for informational purposes only. Consult a qualified legal advisor for case-specific recommendations.
 
