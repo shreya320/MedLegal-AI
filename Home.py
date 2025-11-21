@@ -19,7 +19,7 @@ Welcome to **MedLegal AI**, the tool to help Indian healthcare professionals ass
 """)
 
 # ✅ Button that links to another page
-st.page_link("pages\Assistant.py", label="🧠 Start Assistant", icon="📝")
+st.page_link("pages/Assistant.py", label="🧠 Start Assistant", icon="📝")
 
 
 st.markdown("---")
