@@ -1,8 +1,12 @@
 import streamlit as st
-from ..components.faiss import get_relevant_chunks, get_similar_cases
-from ..components.gemini import get_gemini_response
-from ..components.prompts import build_main_prompt, build_followup_prompt
-from ..components.followup import render_extras
+import sys
+sys.path.append(".")
+
+from components.faiss import get_relevant_chunks, get_similar_cases
+from components.gemini import get_gemini_response
+from components.prompts import build_main_prompt, build_followup_prompt
+from components.followup import render_extras
+
 
 # ─── UI Config ─────────────────────────────────────
 st.set_page_config(page_title="MedLegal AI", page_icon="⚖️", layout="wide")
