@@ -1,6 +1,6 @@
 dotenv
 streamlit
-faiss-cpu
+faiss-cpu==1.7.4
 langchain
 pypdf
 sentence-transformers
