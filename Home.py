@@ -1,7 +1,9 @@
 import streamlit as st
 import os
 
-st.write("Files in /pages:", os.listdir("pages"))
+pages_path = os.path.join(os.path.dirname(__file__), "pages")
+st.write("Files in /pages:", os.listdir(pages_path))
+
 
 
 st.set_page_config(page_title="MedLegal AI", page_icon="⚖️", layout="centered")
