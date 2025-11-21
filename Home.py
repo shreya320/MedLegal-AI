@@ -2,7 +2,6 @@ import streamlit as st
 import os
 
 pages_path = os.path.join(os.path.dirname(__file__), "pages")
-st.write("Files in /pages:", os.listdir(pages_path))
 
 
 
